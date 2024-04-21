@@ -42,7 +42,6 @@ import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
-import LinuxSvg from "@/public/icons/linux.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -172,10 +171,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Docker",
         icon: DockerSvg,
       },
-      // {
-      //   name: "AWS",
-      //   icon: AwsSvg,
-      // },
+      {
+        name: "AWS",
+        icon: AwsSvg,
+      },
       {
         name: "Postman",
         icon: PostmanSvg,
