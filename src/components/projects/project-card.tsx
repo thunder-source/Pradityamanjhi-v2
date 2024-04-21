@@ -11,7 +11,7 @@ export interface ProjectCardProps {
   favicon: string;
   imageUrl: string[];
   description: string;
-  sourceCodeHref: string;
+  sourceCodeHref?: string;
   liveWebsiteHref?: string;
 }
 
@@ -24,7 +24,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         type: "spring",
         duration: 0.4,
       }}
-      className="w-full overflow-hidden rounded-lg border border-accent/20 bg-background shadow-md transition-shadow duration-150 hover:shadow-md hover:shadow-accent/20 dark:bg-zinc-800 dark:hover:shadow-lg"
+      className="relative w-full overflow-hidden rounded-lg border border-accent/20 bg-background shadow-md transition-shadow duration-150 hover:shadow-md hover:shadow-accent/20 dark:bg-zinc-800 dark:hover:shadow-lg"
     >
       <Corosel images={props.imageUrl} aspectRatio={2.1} />
       <div className="p-3 text-foreground sm:p-4">
@@ -34,22 +34,24 @@ export default function ProjectCard(props: ProjectCardProps) {
           </span>
           <span className="text-sm font-semibold">{props.name}</span>
         </div>
-        <div className="mt-3">
+        <div className="my-8 mt-3 ">
           <p className="text-xs md:text-sm">{props.description}</p>
         </div>
         <div className="mt-6 flex items-center justify-end gap-6">
-          <a
-            href={props.sourceCodeHref}
-            target="_blank"
-            className="flex items-center gap-1 text-xs underline md:text-sm"
-          >
-            <GithubIcon className="h-5 w-5" /> Source code
-          </a>
+          {props.sourceCodeHref && (
+            <a
+              href={props.sourceCodeHref}
+              target="_blank"
+              className="absolute bottom-4 right-24 flex items-center gap-1 text-xs underline md:text-sm"
+            >
+              <GithubIcon className="h-5 w-5" /> Source code
+            </a>
+          )}
           {props.liveWebsiteHref && (
             <a
               href={props.liveWebsiteHref}
               target="_blank"
-              className="flex items-center gap-1 text-xs underline md:text-sm"
+              className="absolute bottom-4 right-4 flex items-center gap-1 text-xs underline md:text-sm"
             >
               <FiExternalLink className="h-5 w-5" /> Live
             </a>

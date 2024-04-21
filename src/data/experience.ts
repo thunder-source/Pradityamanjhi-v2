@@ -2,35 +2,24 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Reactjs Frontend Developer",
+    title: "Frontend Developer",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Alpha Lion Logistics",
+      href: "https://alphalionlogistics.com/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
+    date: "Dec 2022 - Nov 2023",
+    location: "Noida",
     description: "Reactjs and Nextjs app development",
   },
   {
-    title: "Engineering Trainee",
+    title: "Frontend Developer",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Reprar Technology Pvt. ltd.",
+      href: "https://reprar.com/",
     },
-    date: "July 2023 - Sep 2023",
+    date: "Aug 2021 - Dec 2022",
     location: "Remote",
     description:
       "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
-  },
-  {
-    title: "Frontend Developer Intern",
-    organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
-    },
-    date: "Winter - 2022",
-    location: "Remote",
-    description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
   },
 ];

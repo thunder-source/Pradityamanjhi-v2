@@ -54,8 +54,8 @@ export default function Navbar(props: NavbarProps) {
                     href={_link.href}
                     className={classNames(
                       pathName === _link.href
-                        ? "font-semibold text-background dark:hover:text-foreground"
-                        : "text-foreground",
+                        ? "font-semibold text-background  dark:hover:text-foreground "
+                        : "text-foreground ",
                       "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
                     )}
                   >

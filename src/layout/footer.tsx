@@ -5,7 +5,7 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export default function Footer() {
   return (
     <footer className="flex w-full flex-col items-center gap-20 bg-transparent px-6 py-8 sm:px-14 md:px-20">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl  bg-accent p-8 text-background  sm:p-12 md:gap-12 lg:p-20">
         <div className="text-center">
           <span className="inline-block rounded-full bg-background px-3 py-1 text-xs font-semibold uppercase text-accent md:text-sm lg:text-base">
             Get in touch
@@ -16,7 +16,7 @@ export default function Footer() {
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-7xl"
         >
-          <span>amitchauhan263871@</span>
+          <span>majhipraditya@</span>
           <br />
           <span>gmail.com</span>
         </a>

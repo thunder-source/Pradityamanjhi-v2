@@ -14,7 +14,7 @@ export function cursorTrail(props: CursorTrail) {
   const ctx = ref.current?.getContext("2d")!;
   let AnimationFeature = {
     friction: 0.5,
-    trails: 20,
+    trails: 40,
     size: 40,
     dampening: 0.2,
     tension: 0.98,

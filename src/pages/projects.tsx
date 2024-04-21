@@ -3,10 +3,12 @@ import { NextSeo } from "next-seo";
 import ProjectCard from "@/components/projects/project-card";
 import { PROJECTS_CARD } from "@/data/projects";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import CursorTrailCanvas from "@/components/cursor-trail-canvas";
 
 export default function Projects() {
   return (
     <>
+      <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
         title="Projects by Praditya manjhi - React and Frontend Developer Portfolio"
         description="Explore a collection of projects by Praditya manjhi, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."

@@ -2,36 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Computer Operator Programming Assistant(COPA)",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "ITI College",
+      href: "https://www.mithibai.ac.in/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2020-2021",
+    location: "Gwalior, Madhya Pradesh",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Completed the course in Computer Operator Programming Assistant(COPA) with 78%. Started freelancing making websites. Got interested in Web development and learned React and Javascript",
+  },
+  {
+    title: "Bachelor Of Commerce with Computer Application",
+    organisation: {
+      name: "Maharani Laxmi Bai Govt. College Of Excellence",
+      href: "https://mlbcollegegwalior.org/",
+    },
+    date: "2017-2020",
+    location: "Gwalior, Madhya Pradesh",
+    description:
+      "Relevant courses included Computer fundamentals, Web Design, and Database Management.",
   },
   {
     title: "Higher Secondary School",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "Blossom Convent H.S. School",
+      href: "https://schools.org.in/gwalior/23040502210/blossom-convent-h-s-school-ullas-bhawan-khedapati-road-gwalior-1-12.html",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2016-2017",
+    location: "Gwalior, Madhya Pradesh",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
-  },
-  {
-    title: "Secondary School Education",
-    organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
-    },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
-    description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Learned good values,dedication and disciplne.",
   },
 ];

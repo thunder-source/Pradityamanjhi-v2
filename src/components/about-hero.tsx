@@ -40,7 +40,8 @@ export default function AboutHero() {
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest projects showcasing my expertise in Reactjs,
-              Nextjs, Javascript, Typescript and web development.
+              Nextjs, Javascript, Typescript, Node.js, MongoDB and web
+              development.
             </p>
           </FadeUp>
           <FadeRight
@@ -59,7 +60,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Gwalior, India
             </span>
           </FadeRight>
         </AnimatePresence>
