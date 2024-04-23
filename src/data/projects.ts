@@ -12,8 +12,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND", "Node.js", "MongoDB", "Node Mailer"],
     image: {
-      LIGHT: "/images/projects/form-builder.webp",
-      DARK: "/images/projects/form-builder.webp",
+      LIGHT: "/images/projects/form-builder/img3.webp",
+      DARK: "/images/projects/form-builder/img3.webp",
     },
   },
   {
@@ -23,24 +23,24 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: [
       "Reactjs",
       "Tailwindcss",
-      "Scss",
+      "firebase",
       "Vite",
       "React-router-dom",
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/tesla.webp",
-      DARK: "/images/projects/tesla.webp",
+      LIGHT: "/images/projects/tesla/img2.webp",
+      DARK: "/images/projects/tesla/img2.webp",
     },
   },
   {
     index: 2,
     title: "Crypto Tracker",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Firebase", "Chakra UI", "Framer Motion"],
     image: {
-      LIGHT: "/images/projects/crypto.webp",
-      DARK: "/images/projects/crypto.webp",
+      LIGHT: "/images/projects/crypto/img1.webp",
+      DARK: "/images/projects/crypto/img1.webp",
     },
   },
 ];
