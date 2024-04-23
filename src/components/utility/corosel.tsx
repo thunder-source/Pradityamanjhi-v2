@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { AnimatePresence, AnimationProps, motion, wrap } from "framer-motion";
 import { BiSolidLeftArrow } from "react-icons/bi";
@@ -46,7 +46,10 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
   };
 
   return (
-    <div className="relative w-full overflow-hidden" style={{ aspectRatio }}>
+    <div
+      className="relative w-full cursor-grab overflow-hidden"
+      style={{ aspectRatio }}
+    >
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           key={page}
@@ -76,30 +79,34 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
           }}
         ></motion.img>
       </AnimatePresence>
-      <div className="absolute bottom-0 flex h-12 w-full items-center justify-center gap-2">
-        <button
-          onClick={() => paginate(1)}
-          className="hidden h-4 w-4 lg:inline-block"
-        >
-          <BiSolidLeftArrow className="fill-zinc-700 dark:fill-zinc-400" />
-        </button>
+      <button
+        onClick={() => {
+          paginate(-1);
+        }}
+        className="absolute left-4 top-1/2 hidden h-6 w-6 -translate-y-1/2  lg:inline-block"
+      >
+        <BiSolidLeftArrow className="mx-auto fill-zinc-700 dark:fill-zinc-400" />
+      </button>
+      <button
+        onClick={() => {
+          paginate(1);
+        }}
+        className="absolute right-4 top-1/2 hidden h-6 w-6 -translate-y-1/2 lg:inline-block"
+      >
+        <BiSolidLeftArrow className="mx-auto rotate-180 fill-zinc-700 dark:fill-zinc-400" />
+      </button>
+      <div className="absolute bottom-0 flex h-12 w-full cursor-default items-center justify-center gap-2">
         {images.map((_, index) => (
           <span
             key={index}
             className={classNames(
-              "h-2 w-2 rounded-full",
+              "h-2 w-2 cursor-pointer rounded-full",
               index === imageIndex
                 ? "bg-accent"
                 : "bg-zinc-700 dark:bg-zinc-400",
             )}
           ></span>
         ))}
-        <button
-          onClick={() => paginate(-1)}
-          className="hidden h-4 w-4 lg:inline-block"
-        >
-          <BiSolidLeftArrow className="rotate-180 fill-zinc-700 dark:fill-zinc-400" />
-        </button>
       </div>
     </div>
   );

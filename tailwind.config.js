@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const { fontFamily } = require("tailwindcss/defaultTheme")
+
 module.exports = {
   darkMode: "class",
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
@@ -26,6 +28,9 @@ module.exports = {
       },
       dropShadow: {
         accent: "0 0 1em hsl(var(--accent))",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
       },
     },
   },

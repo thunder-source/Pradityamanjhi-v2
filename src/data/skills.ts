@@ -3,7 +3,15 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiBootstrap, SiLinux
+  SiBootstrap, SiLinux,
+  SiFirebase,
+  SiMaterialdesign,
+  SiStyledcomponents,
+  SiChakraui,
+  SiJquery,
+  SiFontawesome,
+  SiSwiper,
+  SiThreedotjs
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
@@ -42,6 +50,177 @@ import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+
+import SwiperJs from "@/public/icons/swiper-logo.svg";
+import Formik from "@/public/icons/formik.svg";
+import zustandSvg from "@/public/icons/zustand.svg";
+import tanstackSvg from "@/public/icons/tanstack.svg";
+
+
+
+export const SkillsIconsByName = {
+  html: {
+    name: "HTML",
+    icon: HtmlSvg
+  },
+  fontAwesome: {
+    name: "Font Awesome",
+    icon: SiFontawesome
+  },
+  threeJs: {
+    name: "Three.js",
+    icon: SiThreedotjs
+  },
+  materialUI: {
+    name: "Material UI",
+    icon: SiMaterialdesign
+  },
+  styledComponents: {
+    name: "Styled Components",
+    icon: SiStyledcomponents
+  },
+  zustand: {
+    name: "Zustand",
+    icon: zustandSvg
+  },
+  tanstack: {
+    name: "Tanstack",
+    icon: tanstackSvg
+  },
+  charkaUI: {
+    name: "CharkaUI",
+    icon: SiChakraui
+  },
+  jquery: {
+    name: "Jquery",
+    icon: SiJquery
+  },
+  firebase: {
+    name: "Firebase",
+    icon: SiFirebase
+  },
+  swiper: {
+    name: "Swiper",
+    icon: SwiperJs
+  },
+  formik: {
+    name: "Formik",
+    icon: Formik
+  },
+  css: {
+    name: "CSS",
+    icon: CsssSvg
+  },
+  sass: {
+    name: "SASS",
+    icon: SassSvg
+  },
+  javascript: {
+    name: "Javascript",
+    icon: JavascriptSvg
+  },
+  typescript: {
+    name: "Typescript",
+    icon: TypescriptSvg
+  },
+  reactjs: {
+    name: "Reactjs",
+    icon: ReactjsSvg
+  },
+  reactnative: {
+    name: "React Native",
+    icon: TbBrandReactNative
+  },
+  nextjs: {
+    name: "Nextjs",
+    icon: SiNextdotjs
+  },
+  reactrouterdom: {
+    name: "React Router Dom",
+    icon: ReactRouterDomIcon
+  },
+  reduxtk: {
+    name: "Redux Toolkit",
+    icon: ReduxSvg
+  },
+  tailwindcss: {
+    name: "Tailwindcss",
+    icon: TailwindcssSvg
+  },
+  mui: {
+    name: "MUI",
+    icon: MuiSvg
+  },
+  radixui: {
+    name: "Radix UI",
+    icon: RadixUISvg
+  },
+  shardcn: {
+    name: "Shard-cn",
+    icon: ShardcnSvg
+  },
+  bootstrap: {
+    name: "BootStrap",
+    icon: SiBootstrap
+  },
+  framermotion: {
+    name: "Framer motion",
+    icon: FramerMotionIcon
+  },
+  vite: {
+    name: "Vite",
+    icon: ViteSvg
+  },
+  nodejs: {
+    name: "Nodejs",
+    icon: NodejsSvg
+  },
+  express: {
+    name: "Express",
+    icon: SiExpress
+  },
+  socketio: {
+    name: "Socket.io",
+    icon: SiSocketdotio
+  },
+  jwt: {
+    name: "JWT",
+    icon: JwtSvg
+  },
+  mongodb: {
+    name: "MongoDB",
+    icon: MongoDBSvg
+  },
+  postgress: {
+    name: "Postgress",
+    icon: PostgressSvg
+  },
+  prisma: {
+    name: "Prisma",
+    icon: SiPrisma
+  },
+  git: {
+    name: "Git",
+    icon: GitSvg
+  },
+  docker: {
+    name: "Docker",
+    icon: DockerSvg
+  },
+  aws: {
+    name: "AWS",
+    icon: AwsSvg
+  },
+  postman: {
+    name: "Postman",
+    icon: PostmanSvg
+  },
+  linux: {
+    name: "Linux",
+    icon: SiLinux
+  }
+};
+
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {

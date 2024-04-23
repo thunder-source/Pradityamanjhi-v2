@@ -5,12 +5,15 @@ import { FiExternalLink } from "react-icons/fi";
 
 import Corosel from "@/components/utility/corosel";
 import { GithubIcon } from "@/components/icons";
+import { SkillPillProps } from "../skills/skills-pill";
+import TechnologyDisplay from "./technology-display";
 
 export interface ProjectCardProps {
   name: string;
   favicon: string;
   imageUrl: string[];
   description: string;
+  technology?: SkillPillProps[];
   sourceCodeHref?: string;
   liveWebsiteHref?: string;
 }
@@ -34,10 +37,16 @@ export default function ProjectCard(props: ProjectCardProps) {
           </span>
           <span className="text-sm font-semibold">{props.name}</span>
         </div>
-        <div className="my-8 mt-3 ">
+        <div className="my-4 mt-3 ">
           <p className="text-xs md:text-sm">{props.description}</p>
         </div>
-        <div className="mt-6 flex items-center justify-end gap-6">
+        <div className="flex flex-wrap items-center gap-4">
+          {Array.isArray(props.technology) &&
+            props.technology.map((item, index) => {
+              return <TechnologyDisplay key={index} {...item} />;
+            })}
+        </div>
+        <div className="mt-8 flex items-center justify-end gap-6">
           {props.sourceCodeHref && (
             <a
               href={props.sourceCodeHref}
