@@ -17,5 +17,7 @@ export const siteMetadata = {
   twitter: "https://twitter.com/PradityaManjhi",
   linkedin: "https://www.linkedin.com/in/praditya-manjhi-0165a7211/",
   locale: "en-US",
-  googleSiteVerification: "",
+  googleSiteVerification: "BaLuicuJn6xmpGFe_xkhnT7Cj61tamAeSrdnG0NkeSA",
 };
+
+
