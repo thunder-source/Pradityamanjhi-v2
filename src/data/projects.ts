@@ -2,8 +2,8 @@ import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 import { SkillsIconsByName } from './skills';
-
-const { aws, bootstrap, sass, shardcn, socketio, docker, postgress, postman, prisma, linux, mui, materialUI, reactnative, threeJs, fontAwesome, css, jquery, express, framermotion, formik, html, javascript, styledComponents, firebase, jwt, mongodb, nextjs, nodejs, radixui, reactjs, reactrouterdom, reduxtk, tanstack, charkaUI, zustand, tailwindcss, typescript, vite, swiper } = SkillsIconsByName;
+//  shardcn, socketio, docker, postgress, postman, prisma, linux, mui, materialUI, reactnative,
+const { bootstrap, sass, threeJs, fontAwesome, css, jquery, express, framermotion, formik, html, javascript, styledComponents, firebase, jwt, mongodb, nextjs, nodejs, radixui, reactjs, reactrouterdom, reduxtk, tanstack, charkaUI, zustand, tailwindcss, typescript, vite, swiper } = SkillsIconsByName;
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {

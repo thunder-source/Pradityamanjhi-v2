@@ -10,7 +10,6 @@ import {
   SiChakraui,
   SiJquery,
   SiFontawesome,
-  SiSwiper,
   SiThreedotjs
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
