@@ -57,19 +57,22 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Tesla clone",
+    title: "MusicFy",
     href: "/projects",
     tags: [
-      "Reactjs",
+      "Next.js",
       "Tailwindcss",
-      "firebase",
-      "Vite",
-      "React-router-dom",
+      "Radix UI",
+      "Redux Toolkit",
+      "RTK Query",
+      "Zod",
+      "Node.js",
+      "Hono.js",
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/tesla/img2.webp",
-      DARK: "/images/projects/tesla/img2.webp",
+      LIGHT: "/images/projects/musicfy/img1.png",
+      DARK: "/images/projects/musicfy/img2.png",
     },
   },
   {
@@ -115,7 +118,22 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       radixui,
       tanstack,
     ],
-    liveWebsiteHref: "https://form-builder-client-rosy.vercel.app/",
+    liveWebsiteHref: "https://forms.pradityamanjhi.site/",
+  },
+  {
+    name: "MusicFy",
+    favicon: "/images/projects/musicfy/favicon.png",
+    imageUrl: [
+      "/images/projects/musicfy/img2.png",
+      "/images/projects/musicfy/img3.png",
+      "/images/projects/musicfy/img1.png",
+      "/images/projects/musicfy/img4.png",
+      "/images/projects/musicfy/img5.png",
+    ],
+    description:
+      "Music streaming web application, Musicfy, offering users a seamless and immersive music listening experience. Implemented a user-friendly interface, enabling personalized playlists, search functionality, and real-time music streaming",
+    technology: [nextjs, typescript, tailwindcss, nodejs, radixui, reduxtk],
+    liveWebsiteHref: "https://music.pradityamanjhi.site/",
   },
   {
     name: "My portfolio",

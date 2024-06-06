@@ -6,7 +6,7 @@ export const siteMetadata = {
   language: "en-us",
   theme: "light",
   siteName: "pradityamanjhi.site",
-  siteUrl: "https://pradityamanjhi-v2.vercel.app/",
+  siteUrl: "https://www.pradityamanjhi.site/",
   siteRepo: "https://github.com/thunder-source/Pradityamanjhi-v2",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
@@ -19,5 +19,3 @@ export const siteMetadata = {
   locale: "en-US",
   googleSiteVerification: "BaLuicuJn6xmpGFe_xkhnT7Cj61tamAeSrdnG0NkeSA",
 };
-
-
