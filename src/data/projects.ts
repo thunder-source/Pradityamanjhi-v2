@@ -71,8 +71,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/musicfy/img1.png",
-      DARK: "/images/projects/musicfy/img2.png",
+      LIGHT: "/images/projects/musicfy/img1.webp",
+      DARK: "/images/projects/musicfy/img2.webp",
     },
   },
   {
@@ -124,11 +124,11 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "MusicFy",
     favicon: "/images/projects/musicfy/favicon.png",
     imageUrl: [
-      "/images/projects/musicfy/img2.png",
-      "/images/projects/musicfy/img3.png",
-      "/images/projects/musicfy/img1.png",
-      "/images/projects/musicfy/img4.png",
-      "/images/projects/musicfy/img5.png",
+      "/images/projects/musicfy/img2.webp",
+      "/images/projects/musicfy/img3.webp",
+      "/images/projects/musicfy/img1.webp",
+      "/images/projects/musicfy/img4.webp",
+      "/images/projects/musicfy/img5.webp",
     ],
     description:
       "Music streaming web application, Musicfy, offering users a seamless and immersive music listening experience. Implemented a user-friendly interface, enabling personalized playlists, search functionality, and real-time music streaming",
