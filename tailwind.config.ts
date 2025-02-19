@@ -36,7 +36,6 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/forms")],
 };
-// this is a test
 // import type { Config } from "tailwindcss"
 
 // const config = {
