@@ -118,7 +118,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       radixui,
       tanstack,
     ],
-    liveWebsiteHref: "https://forms.pradityamanjhi.site/",
+    liveWebsiteHref: "https://forms.pradityamanjhi.in/",
   },
   {
     name: "MusicFy",
@@ -133,7 +133,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Music streaming web application, Musicfy, offering users a seamless and immersive music listening experience. Implemented a user-friendly interface, enabling personalized playlists, search functionality, and real-time music streaming",
     technology: [nextjs, typescript, tailwindcss, nodejs, radixui, reduxtk],
-    liveWebsiteHref: "https://music.pradityamanjhi.site/",
+    liveWebsiteHref: "https://music.pradityamanjhi.in/",
   },
   {
     name: "My portfolio",
